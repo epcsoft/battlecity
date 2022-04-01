@@ -1,0 +1,1 @@
+void checkcharge(HDC hdc,int nowstage);

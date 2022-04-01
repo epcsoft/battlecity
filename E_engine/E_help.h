@@ -1,0 +1,1 @@
+int showxiangxi(HDC hdc,char name[],char filename[]);

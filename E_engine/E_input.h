@@ -1,0 +1,14 @@
+int getbichuevent();
+void addbichuevent(int newevent);
+void clearqueen();
+int bichugetter(void *a);
+char isinrect(int x,int y,int x1,int y1,int x2,int y2);
+char _isinrect(int x,int y,int x1,int y1,int x2,int y2);
+char ckpeninrect(int x,int y,int x1,int y1,int x2,int y2,int nowevent);
+char _ckpeninrect(int x,int y,int x1,int y1,int x2,int y2,int nowevent);
+int _ckpen(int nowevent);
+int ckpen(int nowevent);
+char ckkey(char key,eVKEY key1,int once);
+int anykeyortouch(int mode);
+int msgshow(HDC hdc,char *msg);
+int msgshowEx(HDC hdc,char *msg,int msgy,int iscls,int fontcolor);
